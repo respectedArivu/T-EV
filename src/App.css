@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* for homepage  Add this CSS in your project, for example, in your styles.css or styles.scss file */
+
+
+h1{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  color: #c7e8f9;
+  font-size: 5em;
+  font-family: sans-serif;
+  animation-delay: 1000ms;
+}
+
+h1 span{
+  display: inline-block;
+  animation: animate 1s  ease-in-out;
+
+}
+
+@keyframes animate{
+  0%{
+      opacity: 0%;
+      transform: rotateY(90deg);
+      filter: blur(10px);
+  }
+  100%{
+      opacity: 1;
+      transform: rotateY(0deg);
+      filter: blur(0px);
+}
+}
+h1 span:nth-child(1)
+{
+  animation-delay: 2s;
+}
+h1 span:nth-child(2)
+{
+  animation-delay: 3s;
+}
+h1 span:nth-child(3)
+{
+  animation-delay: 4s;
+}
+h1 span:nth-child(4)
+{
+  animation-delay: 5s;
+}
+h1 span:nth-child(5)
+{
+  animation-delay: 6s;
+}
+h1 span:nth-child(6)
+{
+  animation-delay: 7s;
+}
+h1 span:nth-child(7)
+{
+  animation-delay: 8s;
+}
+h1 span:nth-child(8)
+{
+  animation-delay: 9s;
+}
+h1 span:nth-child(9)
+{
+  animation-delay: 10s;
+}
+
